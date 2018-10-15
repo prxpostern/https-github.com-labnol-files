@@ -28,7 +28,7 @@ IP-CIDR , 91.108.0.0/16 , tg
 IP-CIDR, 216.58.0.0/16 , tg
 IP-CIDR, 172.217.0.0/16 , tg
 
-telegram.org
+DOMAIN-SUFFIX , ipinfo.io , tg
 DOMAIN-SUFFIX , telegram.org , tg
 DOMAIN-SUFFIX , my.telegram.org , tg
 DOMAIN-SUFFIX , web.telegram.org , tg
