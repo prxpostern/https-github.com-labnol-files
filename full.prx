@@ -38,7 +38,6 @@ DOMAIN-SUFFIX , rferl.org , tg
 DOMAIN-SUFFIX , finchvpn.com , tg
 DOMAIN-SUFFIX , saveitoffline.com , tg
 DOMAIN-SUFFIX , subscene.com , tg
-
 DOMAIN-SUFFIX , accounts.youtube.com , tg
 DOMAIN-SUFFIX , youtu.be , tg
 DOMAIN-SUFFIX , ytimg.com , tg
@@ -64,5 +63,10 @@ DOMAIN-SUFFIX , github.com , tg
 DOMAIN-SUFFIX , t.co , tg
 DOMAIN-SUFFIX , twimg.com , tg
 DOMAIN-SUFFIX , android.com , tg
+DOMAIN-SUFFIX , mobile.twitter.com , tg
+DOMAIN-SUFFIX , www.facebook.com , tg
+DOMAIN-SUFFIX , openproxy.co , tg
+DOMAIN-SUFFIX , vpnbook.com , tg
+DOMAIN-SUFFIX , openvpn.net , tg
 
 FINAL , DIRECT
