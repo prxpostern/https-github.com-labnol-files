@@ -29,6 +29,14 @@ IP-CIDR , 109.239.140.0/24 , tg
 IP-CIDR, 216.58.0.0/16 , tg
 IP-CIDR, 172.217.0.0/16 , tg
 
+#Sock5List
+IP-CIDR, 178.62.200.0/24 , tg
+IP-CIDR, 185.176.25.0/24 , tg
+IP-CIDR, 89.163.241.0/24 , tg
+IP-CIDR, 213.199.131.0/24 , tg
+IP-CIDR, 95.110.158.209/24 , tg
+IP-CIDR, 82.127.124.0/24 , tg
+
 DOMAIN-SUFFIX , ipinfo.io , tg
 DOMAIN-SUFFIX , telegram.org , tg
 DOMAIN-SUFFIX , vpnkeys.com , tg
@@ -64,4 +72,4 @@ DOMAIN-SUFFIX , vpnbook.com , tg
 DOMAIN-SUFFIX , openvpn.net , tg
 DOMAIN-SUFFIX , checkerproxy.net , tg
 
-FINAL , tg
+FINAL , DIRECT
