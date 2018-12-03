@@ -36,6 +36,8 @@ IP-CIDR, 89.163.241.0/24 , tg
 IP-CIDR, 213.199.131.0/24 , tg
 IP-CIDR, 95.110.158.0/24 , tg
 IP-CIDR, 82.127.124.0/24 , tg
+IP-CIDR, 139.59.157.0/24 , tg
+IP-CIDR, 5.230.134.0/24 , tg
 
 DOMAIN-SUFFIX , ipinfo.io , tg
 DOMAIN-SUFFIX , telegram.org , tg
