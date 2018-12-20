@@ -14,7 +14,7 @@ t11 = https , 91.205.172.156 , 3128
 t12 = https , 147.135.206.233 , 3128
 t13 = https , 54.37.65.79 , 3128
 t14 = https , 90.84.240.81 , 3128
-t15 = https , 217.61.2.203 , 8080
+t15 = shadowsocks , Hostclean.sopoy.com , 1677 , aes-256-cfb , QQtoLuw
 t16 = shadowsocks , 172.65.9.133 , 443 , rc4-md5 , TelePlusFreeProxy
 
 [Proxy Group]
@@ -80,6 +80,7 @@ IP-CIDR, 31.133.0.0/16, tg
 
 
 DOMAIN-SUFFIX , ipinfo.io , tg
+DOMAIN-SUFFIX , zoogvpn.com , tg
 DOMAIN-SUFFIX , telegram.org , tg
 DOMAIN-SUFFIX , vpnkeys.com , tg
 DOMAIN-SUFFIX , vpnjantit.com , tg
