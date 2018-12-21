@@ -1,25 +1,25 @@
 [Proxy]
 
-t1 = https , 104.248.135.57 , 8080
-t2 = https , 173.212.219.151 , 8080
-t3 = https , 178.62.221.22 , 8080
-t4 = https , 178.62.203.177 , 8080
-t5 = https , 77.81.110.86 , 54321
-t6 = https , 209.97.191.221 , 8080
-t7 = https , 209.97.188.44 , 8080
-t8 = https , 104.248.135.57 , 8080
-t9 = https , 62.210.167.3 , 3128
-t10 = https , 51.254.50.239 , 3128
-t11 = https , 91.205.172.156 , 3128
-t12 = https , 147.135.206.233 , 3128
-t13 = https , 54.37.65.79 , 3128
-t14 = https , 90.84.240.81 , 3128
-t15 = shadowsocks , Hostclean.sopoy.com , 1677 , aes-256-cfb , QQtoLuw
-t16 = shadowsocks , 172.65.9.133 , 443 , rc4-md5 , TelePlusFreeProxy
+HTTP_1 = https , 104.248.135.57 , 8080
+HTTP_2 = https , 5.189.144.198 , 3128
+HTTP_3 = https , 178.62.221.22 , 8080
+HTTP_4 = https , 178.62.203.177 , 8080
+HTTP_5 = https , 77.81.110.86 , 54321
+HTTP_6 = https , 209.97.191.221 , 8080
+HTTP_7 = https , 209.97.188.44 , 8080
+HTTP_8 = https , 51.38.146.63 , 3128
+HTTP_9 = https , 62.210.167.3 , 3128
+HTTP_10 = https , 51.254.50.239 , 3128
+SSL_1 = https , 91.205.172.156 , 3128
+SSL_2 = https , 147.135.206.233 , 3128
+SSL_3 = https , 54.37.65.79 , 3128
+SSL_4 = https , 90.84.240.81 , 3128
+SHADOW_1 = shadowsocks , Hostclean.sopoy.com , 1677 , aes-256-cfb , QQtoLuw
+SHADOW_2 = shadowsocks , 172.65.9.133 , 443 , rc4-md5 , TelePlusFreeProxy
 
 [Proxy Group]
 
-tg = select , t1 , t2 , t3 , t4 , t5 , t6 , t7 , t8 , t9 , t10 , t11 , t12 , t13 , t14 , t15 , t16
+tg = select ,HTTP_1 ,HTTP_2 ,HTTP_3 ,HTTP_4 ,HTTP_5 ,HTTP_6 ,HTTP_7 ,HTTP_8 ,HTTP_9 ,HTTP_10 ,SSL_11 ,SSL_12 ,SSL_13 ,SSL_14 ,SHADOW_15 ,SHADOW_16
 
 [Rule]
 
