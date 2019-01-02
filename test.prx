@@ -1,4 +1,3 @@
-
 [Proxy]
 
 HTTP_1 = https , 104.248.166.0 , 8080
@@ -20,7 +19,8 @@ SHADOW_2 = shadowsocks , 172.65.9.133 , 443 , rc4-md5 , TelePlusFreeProxy
 
 [Proxy Group]
 
-tg = select , HTTP_1 , HTTP_2 , HTTP_3 , HTTP_4 , HTTP_5 , HTTP_6 , HTTP_7 , HTTP_8 , HTTP_9 , HTTP_10 , SSL_1 , SSL_2 , SSL_3 , SSL_4 , SHADOW_1 , SHADOW_2
+tg = select , HTTP_1 , HTTP_2 , HTTP_3 , HTTP_4 , HTTP_5 , HTTP_6 , HTTP_7 , HTTP_8 , HTTP_9 , HTTP_10 , SSL_1 , SSL_2 , SSL_3 , SSL_4 
+#, SHADOW_1 , SHADOW_2
 
 [Rule]
 
