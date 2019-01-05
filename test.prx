@@ -77,8 +77,10 @@ IP-CIDR, 212.32.0.0/16, tg
 IP-CIDR, 188.126.0.0/16 , tg
 IP-CIDR, 185.90.0.0/16, tg
 IP-CIDR, 31.133.0.0/16, tg
+IP-CIDR, 88.202.0.0/16, tg
 
 
+DOMAIN-SUFFIX , spotify.com , tg
 DOMAIN-SUFFIX , ipinfo.io , tg
 DOMAIN-SUFFIX , zoogvpn.com , tg
 DOMAIN-SUFFIX , telegram.org , tg
