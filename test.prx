@@ -18,7 +18,7 @@ SSL_10 = https , 51.75.169.56 , 8080
 
 [Proxy Group]
 
-tg = select , HTTP_1 , HTTP_2 , HTTP_3 , HTTP_4 , HTTP_5 , HTTP_6 , HTTP_7 , HTTP_8 , HTTP_9 , HTTP_10 , SSL_1 , SSL_2 , SSL_3 , SSL_4 , SSL_5 , SSL_6
+tg = select , HTTP_1 , HTTP_2 , HTTP_3 , HTTP_4 , HTTP_5 , HTTP_6 , HTTP_7 , HTTP_8 , HTTP_9 , HTTP_10 , SSL_1 , SSL_2 , SSL_3 , SSL_4 , SSL_5 , SSL_6 , SSL_7 , SSL_8 , SSL_9 , SSL_10
 
 [Rule]
 
