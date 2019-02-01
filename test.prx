@@ -1,24 +1,18 @@
 [Proxy]
 
-HTTP_1 = https , 104.248.166.0 , 8080
-HTTP_2 = https , 5.189.144.198 , 3128
-HTTP_3 = https , 62.210.167.3 , 3128
-HTTP_4 = https , 178.33.39.70 , 3128
-HTTP_5 = https , 217.182.103.42 , 3128
 SSL_1 = https , 173.249.51.179 , 3128
-SSL_2 = https , 54.37.160.95 , 8080
-SSL_3 = https , 176.31.69.180 , 8080
+SSL_2 = https , 147.135.206.233 , 3128
+SSL_3 = https , 109.92.211.206 , 3128
 SSL_4 = https , 62.4.16.163 , 3128
 SSL_5 = https , 188.165.178.246 , 8080
-SSL_6 = https , 51.38.234.95 , 8080
-SSL_7 = https , 147.135.206.233 , 3128
-SSL_8 = https , 109.92.211.206 , 3128
-SSL_9 = https , 185.86.150.82 , 8888
-SSL_10 = https , 51.75.169.56 , 8080
+SSL_6 = https , 51.75.169.56 , 8080
+SSL_7 = https ,  195.123.218.197 , 3128 , pfp01-openproxy.co , pfpfp
+SSL_8 = https ,  95.216.145.148 , 3128 , pfp02-openproxy.co , pfpfp
 
 [Proxy Group]
 
-tg = select , HTTP_1 , HTTP_2 , HTTP_3 , HTTP_4 , HTTP_5 , HTTP_6 , HTTP_7 , HTTP_8 , HTTP_9 , HTTP_10 , SSL_1 , SSL_2 , SSL_3 , SSL_4 , SSL_5 , SSL_6 , SSL_7 , SSL_8 , SSL_9 , SSL_10
+tg = select , SSL_1 , SSL_2 , SSL_3 , SSL_4 , SSL_5 , SSL_6 , SSL_7 , SSL_8
+#, SSL_9 , SSL_10
 
 [Rule]
 
