@@ -6,8 +6,8 @@ SSL_3 = https , 109.92.211.206 , 3128
 SSL_4 = https , 62.4.16.163 , 3128
 SSL_5 = https , 188.165.178.246 , 8080
 SSL_6 = https , 51.75.169.56 , 8080
-SSL_7 = https ,  195.123.218.197 , 3128 , pfp01-openproxy.co , pfpfp
-SSL_8 = https ,  95.216.145.148 , 3128 , pfp02-openproxy.co , pfpfp
+SSL_7 = https ,  116.203.1.180 , 1994
+SSL_8 = https ,  54.37.131.15 , 3128
 
 [Proxy Group]
 
