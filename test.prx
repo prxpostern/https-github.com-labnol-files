@@ -1,26 +1,24 @@
 [Proxy]
 
-SSL_1 = https , 77.55.192.254 , 3128
-SSL_2 = https , 63.33.90.23 , 3128
+SSL_1 = https , 54.37.136.149 , 3128
+SSL_2 = https , 159.8.114.37 , 25
 SSL_3 = https , 193.92.85.51 , 8080
-SSL_4 = https , 134.19.218.94 , 3128
-SSL_5 = https , 95.140.40.78 , 3128
+SSL_4 = https , 173.192.21.89 , 8123
+SSL_5 = https , 195.230.131.210 , 3128
 SSL_6 = https , 40.68.149.233 , 8080
-SSL_7 = https , 51.75.33.220 , 3128
-SSL_8 = https , 173.249.33.139 , 8888
+SSL_7 = https , 213.77.62.182 , 443
+SSL_8 = https , 119.81.71.27 , 8123
 
 HTTP_1 = https , 209.97.180.46 , 8080
 HTTP_2 = https , 178.128.168.122 , 8080
 HTTP_3 = https , 173.249.43.105 , 3128
-HTTP_4 = https , 51.77.229.143 , 8080
-
+HTTP_4 = https , 163.172.215.202 , 3128
 
 [Proxy Group]
 
 tgHTTP = select , HTTP_1 , HTTP_2 , HTTP_3 , HTTP_4
 
 tgSSL = select , SSL_1 , SSL_2 , SSL_3 , SSL_4 , SSL_5 , SSL_6 , SSL_7 , SSL_8
-#, SSL_9 , SSL_10
 
 [Rule]
 
@@ -31,10 +29,6 @@ IP-CIDR , 31.186.175.0/24 , tgHTTP
 IP-CIDR , 104.250.223.0/24 , tgHTTP
 IP-CIDR , 172.65.62.0/24 , tgHTTP
 IP-CIDR , 172.65.43.0/24 , tgHTTP
-IP-CIDR , 46.22.0.0/16 , tgHTTP
-IP-CIDR , 185.45.15.0/24 , tgHTTP
-IP-CIDR , 185.210.218.0/24 , tgHTTP
-IP-CIDR , 185.195.19.0/24 , tgHTTP
 
 IP-CIDR,2.144.0.0/16,DIRECT
 IP-CIDR,2.145.0.0/17,DIRECT
