@@ -1,34 +1,36 @@
 [Proxy]
 
-SSL_1 = https , 54.37.136.149 , 3128
-SSL_2 = https , 109.123.4.12 , 3128
-SSL_3 = https , 193.92.85.51 , 8080
-SSL_4 = https , 96.11.183.235 , 3128
-SSL_5 = https , 195.230.131.210 , 3128
-SSL_6 = https , 40.68.149.233 , 8080
-SSL_7 = https , 213.77.62.182 , 443
-SSL_8 = https , 3.0.239.184 , 3128
+HTTP_1 = https , 173.249.43.105 , 3128
+HTTP_2 = https , 51.77.211.175 , 3128
+HTTP_3 = https , 82.196.5.200 , 3128
+HTTP_4 = https , 45.125.66.174 , 54321
 
-HTTP_1 = https , 209.97.180.46 , 8080
-HTTP_2 = https , 178.128.168.122 , 8080
-HTTP_3 = https , 173.249.43.105 , 3128
-HTTP_4 = https , 163.172.215.202 , 3128
+SSL_1 = https , 104.248.168.59 , 3128
+SSL_2 = https , 51.77.213.22 , 3128
+SSL_3 = https , 104.248.84.77 , 3128
+SSL_4 = https , 40.118.127.197 , 8080
 
 [Proxy Group]
 
 tgHTTP = select , HTTP_1 , HTTP_2 , HTTP_3 , HTTP_4
 
-tgSSL = select , SSL_1 , SSL_2 , SSL_3 , SSL_4 , SSL_5 , SSL_6 , SSL_7 , SSL_8
+tgSSL = select , SSL_1 , SSL_2 , SSL_3 , SSL_4 
 
 [Rule]
 
-IP-CIDR , 46.22.0.0/16 , tgHTTP
+DOMAIN-SUFFIX , hidemyna.me , tgHTTP
+DOMAIN-SUFFIX , mkvcage.ws , tgHTTP
+DOMAIN-SUFFIX , pfp4.duckdns.org , tgHTTP
+DOMAIN-SUFFIX , pfp5.duckdns.org , tgHTTP
+
+IP-CIDR , 46.22.216.0/22 , tgHTTP
 IP-CIDR , 92.119.0.0/16 , tgHTTP
 IP-CIDR , 88.202.183.0/24 , tgHTTP
 IP-CIDR , 31.186.175.0/24 , tgHTTP
 IP-CIDR , 104.250.223.0/24 , tgHTTP
-IP-CIDR , 172.65.62.0/24 , tgHTTP
-IP-CIDR , 172.65.43.0/24 , tgHTTP
+IP-CIDR , 51.68.124.0/24 , tgHTTP
+IP-CIDR , 116.0.0.0/8 , tgHTTP
+IP-CIDR , 34.244.0.0/16 , tgHTTP
 
 IP-CIDR,2.144.0.0/16,DIRECT
 IP-CIDR,2.145.0.0/17,DIRECT
