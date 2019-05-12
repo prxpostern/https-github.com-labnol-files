@@ -1,43 +1,45 @@
 [Proxy]
 
-HTTP_1 = https , 45.125.66.99 , 54321
-HTTP_2 = https , 192.166.219.46 , 3128
-HTTP_3 = https , 82.196.5.200 , 3128
-HTTP_4 = https , 173.249.43.105 , 3128
+#HTTP_1 = https , 45.125.66.99 , 54321
+#HTTP_2 = https , 192.166.219.46 , 3128
+#HTTP_3 = https , 82.196.5.200 , 3128
+#HTTP_4 = https , 173.249.43.105 , 3128
 
-SSL_1 = https , 54.37.136.149 , 3128
-SSL_2 = https , 212.237.36.238 , 3128
+SSL_1 = https , 35.159.52.64 , 8081
+SSL_2 = https , 185.242.181.35 , 8080
 SSL_3 = https , 134.19.218.94 , 3129
 SSL_4 = https , 167.114.255.85 , 3128
 
+
 [Proxy Group]
 
-tgHTTP = select , HTTP_1 , HTTP_2 , HTTP_3 , HTTP_4
+#tgHTTP = select , HTTP_1 , HTTP_2 , HTTP_3 , HTTP_4
 
 tgSSL = select , SSL_1 , SSL_2 , SSL_3 , SSL_4 
 
 [Rule]
 
-DOMAIN-SUFFIX , hidemyna.me , tgHTTP
-DOMAIN-SUFFIX , mkvcage.ws , tgHTTP
-DOMAIN-SUFFIX , pfp4.duckdns.org , tgHTTP
-DOMAIN-SUFFIX , pfp5.duckdns.org , tgHTTP
+#DOMAIN-SUFFIX , hidemyna.me , tgHTTP
+#DOMAIN-SUFFIX , mkvcage.ws , tgHTTP
+#DOMAIN-SUFFIX , pfp4.duckdns.org , tgHTTP
+#DOMAIN-SUFFIX , pfp5.duckdns.org , tgHTTP
 #DOMAIN-SUFFIX , mtproto.ovh , tgHTTP
 #DOMAIN-SUFFIX , mtproto.world , tgHTTP
-DOMAIN-SUFFIX , drproxy.pro , tgHTTP
-DOMAIN-SUFFIX , keepimg.com , tgHTTP
-DOMAIN-SUFFIX , extraimage.net , tgHTTP
+#DOMAIN-SUFFIX , drproxy.pro , tgHTTP
+#DOMAIN-SUFFIX , keepimg.com , tgHTTP
+#DOMAIN-SUFFIX , extraimage.net , tgHTTP
 
-IP-CIDR , 149.154.0.0/16 , tgHTTP
-IP-CIDR , 91.108.0.0/16 , tgHTTP
-IP-CIDR , 84.245.0.0/16 , tgHTTP
+
+#IP-CIDR , 149.154.0.0/16 , tgHTTP
+#IP-CIDR , 91.108.0.0/16 , tgHTTP
+#IP-CIDR , 84.245.0.0/16 , tgHTTP
 #IP-CIDR , 92.119.0.0/16 , tgHTTP
-IP-CIDR , 31.186.175.0/24 , tgHTTP
-IP-CIDR , 104.250.223.0/24 , tgHTTP
-IP-CIDR , 51.68.124.0/24 , tgHTTP
-IP-CIDR , 116.0.0.0/8 , tgHTTP
+#IP-CIDR , 31.186.175.0/24 , tgHTTP
+#IP-CIDR , 104.250.223.0/24 , tgHTTP
+#IP-CIDR , 51.68.124.0/24 , tgHTTP
+#IP-CIDR , 116.0.0.0/8 , tgHTTP
 #IP-CIDR , 34.244.0.0/16 , tgHTTP
-IP-CIDR , 216.173.0.0/16 , tgHTTP
+#IP-CIDR , 216.173.0.0/16 , tgHTTP
 
 IP-CIDR,2.144.0.0/16,DIRECT
 IP-CIDR,2.145.0.0/17,DIRECT
